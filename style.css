@@ -20,8 +20,8 @@ nav{
     align-items: center;
 }
 .nav-logo img{
-    height:30px;
-    width:70px;
+    height:40px;
+    width:120px;
 }
 .nav-menu{
     display: flex;
@@ -33,17 +33,23 @@ main{
     
     padding:70px 0px;
 }
+.content{
+    background-color: #ffffff;
+}
 .section-one img{
     height:300px;
     width:100%;
+    position:fixed;
+    z-index: -1;
 }
 .section-two{
     display: grid;
     gap:13px;
     line-height: 1.5;
-    margin:20px 0px;
+    margin:320px 0px 0px 0px;
     text-align: center;
     padding:0px 18px;
+    background-color: #ffffff;
     
 }
 h1{
@@ -101,6 +107,7 @@ h2{
     padding:0px 18px;
     justify-content:start;
     align-items: center;
+    background-color: #ffffff;
 }
 .section-four button{
     display: inline-block;
